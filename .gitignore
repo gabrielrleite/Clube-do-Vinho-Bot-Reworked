@@ -1,3 +1,8 @@
 node_modules
 .env
 config.json
+.history
+.gitignore
+package-lock.json
+config_delete.json
+delete_sls.js
