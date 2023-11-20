@@ -61,7 +61,7 @@ module.exports = {
                         const not_clear = msg_delete - msg_deleted.size;
                         await interaction.reply(`${msg_delete.size} mensagens foram apagadas. ${not_clear} não foram apagadas por serem muito antigas.`).then((msg)=>{setTimeout(()=>{msg.delete();},2000);});;
                     } else {
-                        await interaction.reply(`${msg_delete.size} mensagens foram apagadas.`).then((msg)=>{setTimeout(()=>{msg.delete();},2000);});;
+                        await interaction.reply(`${msg_delete.size} mensagens foram apagadas.`).then((msg)=>{setTimeout(()=>{msg.delete();},2000);});
                     }
                   } catch (deleteError) {
                     console.error(`Erro ao excluir mensagens individualmente: ${deleteError.message}`);
