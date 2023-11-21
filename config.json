@@ -1,0 +1,12 @@
+{
+    "token": "Token obtido em: https://discord.com/developers/applications",
+    "guildId": "Id obtido a partir do servidor em será utilizado",
+    "clientId": "Id obtido em: https://discord.com/developers/applications",
+    "queueId": "Id do canal de texto principal para músicas",
+    "database": {
+        "host": "ip do banco de dados",
+        "usr": "usuario do banco de dados",
+        "pass": "senha do banco de dados",
+        "db": "banco de dados"
+    }
+}
