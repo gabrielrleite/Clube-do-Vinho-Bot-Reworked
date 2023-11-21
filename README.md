@@ -62,7 +62,7 @@ Instale as dependências
 
 Preencha o arquivo `config.json`
 
-inicie o projeto
+Inicie o projeto
 
 ```bash
   node index.js
